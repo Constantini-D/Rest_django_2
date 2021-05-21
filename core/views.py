@@ -7,7 +7,7 @@ from .models import Sorvete
 
 
 class SorveteViewSet(viewsets.ModelViewSet):
-    queryset = Sorvete.objects.all().order_by('nome')   # verificiar a ordenação
+    queryset = Sorvete.objects.all().order_by('id')   # verificiar a ordenação
     serializer_class = SorveteSerializer
 
 
