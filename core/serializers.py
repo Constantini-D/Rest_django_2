@@ -5,4 +5,4 @@ from .models import Sorvete
 class SorveteSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Sorvete
-        fields = ('nome', 'preco')
+        fields = ('id', 'nome', 'preco')
